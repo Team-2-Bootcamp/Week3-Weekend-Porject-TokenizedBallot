@@ -16,6 +16,7 @@ contract TokenizedBallot {
     IMyToken public targetContract;
     Proposal[] public proposals;
     uint256 public targetBlockNumber;
+    mapping(address => uint256) public remainingVotingPower;
 
     constructor(
         bytes32[] memory proposalNames,
@@ -38,12 +39,21 @@ contract TokenizedBallot {
             votingPower(msg.sender) >= amount,
             "TokenizedBallot: trying to vote more than allowed"
         );
+        remainingVotingPower[msg.sender] = votingPower(msg.sender) - amount;
         proposals[proposal].voteCount += amount;
     }
 
     function votingPower(address account) public view returns (uint256) {
-        return targetContract.getPastVotes(account, targetBlockNumber);
-        // TODO: check if this is enough for protecting the contract
+
+        // Check if the user's account exists in the custom mapping
+        if (remainingVotingPower[account] > 0) {
+            // User's voting power already subtracted, use it directly
+            return remainingVotingPower[account];
+        } else {
+            // User's voting power not subtracted yet, retrieve from getPastVotes
+            return targetContract.getPastVotes(account, targetBlockNumber);
+            
+        }
     }
 
     function winningProposal() public view returns (uint winningProposal_) {
