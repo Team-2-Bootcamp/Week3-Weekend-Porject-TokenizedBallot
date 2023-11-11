@@ -2,9 +2,7 @@ import { ethers } from "ethers";
 import * as dotenv from "dotenv";
 dotenv.config();
 
-import { MyToken__factory, TokenizedBallot__factory } from "../typechain-types";
-
-const MINT_VALUE = ethers.parseUnits("10");
+import { TokenizedBallot__factory } from "../typechain-types";
 
 async function main() {
   // Receiving parameters
@@ -34,32 +32,13 @@ async function main() {
     throw new Error("Not enough ether");
   }
   // Deploying the smart contract using Typechain
-  const myTokenFactory = new MyToken__factory(wallet);
-  const myTokenContract = await myTokenFactory.deploy();
-  console.log("Waiting for deployment...");
-  await myTokenContract.waitForDeployment();
-  console.log(`Contract deployed to ${myTokenContract.target}`);
-  const mintTx = await myTokenContract.mint(
-    "0x889B0fA4E64C7b4a8e2E2EF48Fd013bab33f3699",
-    MINT_VALUE
-  );
-  await mintTx.wait();
-  console.log(
-    `Minted ${MINT_VALUE.toString()} decimal units to account ${"0x889B0fA4E64C7b4a8e2E2EF48Fd013bab33f3699"}\n`
-  );
-  const balanceBN = await myTokenContract.balanceOf(
-    "0x889B0fA4E64C7b4a8e2E2EF48Fd013bab33f3699"
-  );
-  console.log(
-    `Account ${"0x889B0fA4E64C7b4a8e2E2EF48Fd013bab33f3699"} has ${balanceBN.toString()} decimal units of MyToken\n`
-  );
   // Calculate a suitable targetBlockNumber
   const currentBlockNumber = await provider.getBlockNumber();
   const targetBlockNumber = currentBlockNumber - 1; // Adjust the number of blocks as needed
   const TokenizedBallotFactory = new TokenizedBallot__factory(wallet);
   const tokenizedBallot = await TokenizedBallotFactory.deploy(
     proposals.map(ethers.encodeBytes32String),
-    myTokenContract.target,
+    process.env.MY_TOKEN_CONTRACT_ADDRESS ?? "",
     targetBlockNumber
   );
   console.log("Waiting for TokenizedBallot deployment...");
