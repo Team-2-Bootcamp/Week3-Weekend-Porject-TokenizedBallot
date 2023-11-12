@@ -13,7 +13,7 @@ async function main() {
   );
 
   // Configuring the wallet
-  const wallet = new ethers.Wallet(process.env.WALLET_ADDRESS_TO_MINT_TO ?? "", provider);
+  const wallet = new ethers.Wallet(process.env.PRIVATE_KEY ?? "", provider);
   console.log(`Using address ${wallet.address}`);
   const Walletbalance = await provider.getBalance(wallet.address);
   const balance = Number(ethers.formatUnits(Walletbalance));
