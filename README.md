@@ -17,7 +17,7 @@ Deployment tx: [TX Hash](https://sepolia.etherscan.io/tx/0xe65d670b34639152e8ea8
 Deployer wallet: 0x0F8215Ee72639e3ebb244e14D2F7A582060f68De
 
 **TokenizedBallotDeployment**
-Deployment tx: 
+Deployment tx: [TX Hash](https://sepolia.etherscan.io/tx/0x8a1a109a1297375704417661c53fcf29dad50f9937d05c64df7b0c5c8a288613)
 Deployer wallet: 0x0F8215Ee72639e3ebb244e14D2F7A582060f68De
 
 **giveVotingTokens**
