@@ -30,7 +30,7 @@ For week 3, the focus is on completing the contracts collaboratively and develop
 Delegated voting power to myself: [TX Hash](https://sepolia.etherscan.io/tx/0xfc4a557a6463dd100b995c13197701fa4f1f2669a598051a105568f2cabf040b)
 
 **castVote**
-- Casted a vote for index 0 (proposal1): [TX Hash](https://sepolia.etherscan.io/tx/0x8a4d235746af7f649c95f637a2208b564af88764295630d8bbfd2803fb27f5dd) with 0x0F8215Ee72639e3ebb244e14D2F7A582060f68De)
+- Casted a vote for index 0 (proposal1): [TX Hash](https://sepolia.etherscan.io/tx/0x8a4d235746af7f649c95f637a2208b564af88764295630d8bbfd2803fb27f5dd)
 
 **checkVotingPower**
 - Returned:
