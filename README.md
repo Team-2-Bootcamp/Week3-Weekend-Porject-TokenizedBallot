@@ -12,6 +12,38 @@ For week 3, the focus is on completing the contracts collaboratively and develop
 
 ### **Ignas Apšega**
 
+**MyTokenDeployment**
+Deployment tx: [TX Hash](https://sepolia.etherscan.io/tx/0xe65d670b34639152e8ea8e9d6ba94cf12c4f9bae5f53ffafa8b698fa2d9b1aee)
+Deployer wallet: 0x0F8215Ee72639e3ebb244e14D2F7A582060f68De
+
+**TokenizedBallotDeployment**
+Deployment tx: 
+Deployer wallet: 0x0F8215Ee72639e3ebb244e14D2F7A582060f68De
+
+**giveVotingTokens**
+Gave 2 voting tokens to 0x7952F1CA05d414E9A193C4516A8E0b40fB4A57c9 [TX Hash](https://sepolia.etherscan.io/tx/0x34742403cc9a1ffeb0ee5e8d02b87671cc0ee13d8736e3738cc934378fa0e1e6)
+Gave 4 voting tokens to 0x7952F1CA05d414E9A193C4516A8E0b40fB4A57c9 [TX Hash](https://sepolia.etherscan.io/tx/0xfbaf68cb784e85b52487053809ef9d27fe1138da472fb0224328415057e044f2)
+Gave another 4 voting tokens to 0x7952F1CA05d414E9A193C4516A8E0b40fB4A57c9 [TX Hash](https://sepolia.etherscan.io/tx/0x1ad17ec7b685e1170835b9beb933710be7b333dc4ddf0854ca926a1524671da2)
+
+**delegateVotingPower**
+Delegated voting power to myself: [TX Hash](https://sepolia.etherscan.io/tx/0xfc4a557a6463dd100b995c13197701fa4f1f2669a598051a105568f2cabf040b)
+
+**castVote**
+Casted a vote for index 0: [TX Hash](https://sepolia.etherscan.io/tx/0x8a4d235746af7f649c95f637a2208b564af88764295630d8bbfd2803fb27f5dd with 0x0F8215Ee72639e3ebb244e14D2F7A582060f68De)
+
+**checkVotingPower**
+Returned:
+  Using address 0x0F8215Ee72639e3ebb244e14D2F7A582060f68De
+  Wallet balance 0.4819303546282501 ETH
+  Voting power of an account with address 0x0F8215Ee72639e3ebb244e14D2F7A582060f68De is 0.
+
+**queryResults**
+Returned:
+  Using wallet address 0x0F8215Ee72639e3ebb244e14D2F7A582060f68De
+  Wallet balance 0.4819303546282501 ETH
+  Winning Proposal Index: 0
+  Winner Name: proposal1
+
 ### **Lyle Davids**
 
 ##### Deployments
