@@ -37,7 +37,7 @@ I've written a script for giving MyToken token which is both an ERC20 and ERC20V
 
 **delegateVotingPower**
 I've written a script both for both self delegating and delegating voting power for others. Below are transaction hashes for interactions i had with the funtion:
-- [self delegated for getting votin power](https://sepolia.etherscan.io/tx/0xbc298e0710fc2cf7db2ee70a779c2c734df9c97b5e2d3e5f8245cbc0b0522d15)
+- [self delegated to get voting power](https://sepolia.etherscan.io/tx/0xbc298e0710fc2cf7db2ee70a779c2c734df9c97b5e2d3e5f8245cbc0b0522d15)
 - [delegated voting power for address 0x889B0fA4E64C7b4a8e2E2EF48Fd013bab33f3699 from address 0x3d0b766D595a89F6b1C5BDB7FA15Ec5611D25038](https://sepolia.etherscan.io/tx/0x5651ba8b8222bcbcf095dfec875800720c3ab8e856aa165e38f0f06975689ba4)
 - [delegated voting power for address 0x889B0fA4E64C7b4a8e2E2EF48Fd013bab33f3699 from address 0x461384e9b9ce4d218A8ca57765C37cfbB79bc546](https://sepolia.etherscan.io/tx/0x5fdd94368a3db84ab6bf43c5d97620db59e058d361227c8bf8e8e05ad5718f70)
 
