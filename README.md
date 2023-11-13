@@ -10,6 +10,46 @@ For week 3, the focus is on completing the contracts collaboratively and develop
 
 ### **Cameron Mcewan**
 
+Deployed MyToken.sol and TokenizedBallot.sol to Sepolia testnet, with the following contract addresses:
+- MyToken.sol: 0xaE594A2EfFF02A826aBf0F775386E550Af731A42
+- TokenizedBallot.sol: 0x5f42Bc584040045b23C5b7b1726904fD741e0A61 (with two proposals: "Proposal1 and "Proposal2")
+
+#### giveVotingTokens
+
+Gave 5 voting tokens to 0xFC3Cda653CB188618DEb61dc4Fa0c8391e4754eF TX Hash: 0xc0d51cdad64540eaf942ac2937461a6593fda41b76feed480ca3b46c19bdf27b
+Gave 1 voting token to 0x190EFd7Def4010138509A2AAFD1d1357Fd235D21 TX Hash: 0xa80d78589efd24675df14a6c96d1aad8804fd35074b67028b40c14a93d4e92f7
+Gave 2 voting tokens to 0x939E0985CC8135E527e2Ab6FC3DDD6201C2196F1 TX Hash: 0x0809bc1f911e9b23c512649b9f43e1493d107ebe5b89c358da966735bb0ae490
+
+#### delegateVotingPower 
+
+Delegated voting power to account 0x190EFd7Def4010138509A2AAFD1d1357Fd235D21 TX Hash: 0xa543c27185dcf5a5ea5c9541ed86465d541706b097f5ae6afb7752c395c34b0a
+
+Logs:
+```
+Wallet {
+  provider: JsonRpcProvider {},
+  address: '0x190EFd7Def4010138509A2AAFD1d1357Fd235D21'
+}
+Using address 0x190EFd7Def4010138509A2AAFD1d1357Fd235D21
+Wallet balance 0.49993877299926526 ETH
+Waiting for delegating to the address 0x190EFd7Def4010138509A2AAFD1d1357Fd235D21....
+Account 0x190EFd7Def4010138509A2AAFD1d1357Fd235D21 has 1000000000000000000 units of voting power after delegating
+```
+#### castVote
+
+Tried to cast a vote for index 0 (proposal1) using address 0xFC3Cda653CB188618DEb61dc4Fa0c8391e4754eF, but get error saying the voting power of this address is 0
+```Error: execution reverted: "TokenizedBallot: trying to vote more than allowed"```
+
+#### checkVotingPower
+
+Using this script to check the voting power of this address:
+```
+Using address 0xFC3Cda653CB188618DEb61dc4Fa0c8391e4754eF
+Wallet balance 0.48619471579803536 ETH
+Voting power of an account with address 0xFC3Cda653CB188618DEb61dc4Fa0c8391e4754eF is 0.
+```
+
+
 ### **Ignas Apšega**
 
 **MyTokenDeployment**
