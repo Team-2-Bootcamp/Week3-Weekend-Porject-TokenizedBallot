@@ -23,8 +23,8 @@ For week 3, the focus is on completing the contracts collaboratively and develop
 
 **giveVotingTokens**
 - Gave 2 voting tokens to 0x7952F1CA05d414E9A193C4516A8E0b40fB4A57c9 [TX Hash](https://sepolia.etherscan.io/tx/0x34742403cc9a1ffeb0ee5e8d02b87671cc0ee13d8736e3738cc934378fa0e1e6)
-- Gave 4 voting tokens to 0x7952F1CA05d414E9A193C4516A8E0b40fB4A57c9 [TX Hash](https://sepolia.etherscan.io/tx/0xfbaf68cb784e85b52487053809ef9d27fe1138da472fb0224328415057e044f2)
-- Gave another 4 voting tokens to 0x7952F1CA05d414E9A193C4516A8E0b40fB4A57c9 [TX Hash](https://sepolia.etherscan.io/tx/0x1ad17ec7b685e1170835b9beb933710be7b333dc4ddf0854ca926a1524671da2)
+- Gave 4 voting tokens to 0x6545eA8a66d44754f37CA0cC011223F59850e2DD [TX Hash](https://sepolia.etherscan.io/tx/0xfbaf68cb784e85b52487053809ef9d27fe1138da472fb0224328415057e044f2)
+- Gave another 4 voting tokens to 0x6545eA8a66d44754f37CA0cC011223F59850e2DD [TX Hash](https://sepolia.etherscan.io/tx/0x1ad17ec7b685e1170835b9beb933710be7b333dc4ddf0854ca926a1524671da2)
 
 **delegateVotingPower**
 Delegated voting power to myself: [TX Hash](https://sepolia.etherscan.io/tx/0xfc4a557a6463dd100b995c13197701fa4f1f2669a598051a105568f2cabf040b)
