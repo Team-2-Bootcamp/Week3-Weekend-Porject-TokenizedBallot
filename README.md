@@ -76,7 +76,7 @@ Returned
 Winning Proposal Index: 0
 Winner Name: lyle
 
-### **Wendwossen Dufera
+### **Wendwossen Dufera**
 i've completed the TokenizedBallot.sol by implementing the votePower function correctly. I've also added the necessary check that have to be taken in vote function. Then i've deployed both MyToken.sol and TokenizedBallot.sol. Below is the transaction hash for both:
 - [MyToken Contract Deployment](https://sepolia.etherscan.io/tx/0xac4ba7a1df03178f44266604430d2b5c2c57da3713533bda155034636518693f)
 - [TokenizedBallot Contract Deployment](https://sepolia.etherscan.io/tx/0xe8e4bc0e2ac54edda9c56c759bf27b62ca95d8d553c04054962d86c2048fc422)
