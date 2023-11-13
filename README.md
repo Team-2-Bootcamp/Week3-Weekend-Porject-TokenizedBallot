@@ -24,11 +24,11 @@ After successfully compliting and deploying the smart contracts, i've written 5 
 
 **MyTokenDeployment**
 I've written a script to deploy MyToken smart contract. Below is the transaction hash for the execution of the script:
-[MyToken Contract Deployment](https://sepolia.etherscan.io/tx/0xac4ba7a1df03178f44266604430d2b5c2c57da3713533bda155034636518693f)
+- [MyToken Contract Deployment](https://sepolia.etherscan.io/tx/0xac4ba7a1df03178f44266604430d2b5c2c57da3713533bda155034636518693f)
 
 **TokenizedBallotDeployment**
 I've written a script to deploy TokenizedBallot smart contract. It receives the target block number which enables it to prevent users from getting additional voting power once the voting is started which prevents richies from ruling over others wish. Below is the transaction hash for the execution of the script:
-[TokenizedBallot Contract Deployment](https://sepolia.etherscan.io/tx/0xe8e4bc0e2ac54edda9c56c759bf27b62ca95d8d553c04054962d86c2048fc422)
+- [TokenizedBallot Contract Deployment](https://sepolia.etherscan.io/tx/0xe8e4bc0e2ac54edda9c56c759bf27b62ca95d8d553c04054962d86c2048fc422)
 
 **giveVotingTokens**
 I've written a script for giving MyToken token which is both an ERC20 and ERC20Votes token for other users or accounts which are my other accounts. Below are the transaction hashes for giveVotingTokens.ts script execution:
