@@ -22,10 +22,10 @@ Tokenised Ballot deployed to Sepolia - [TX Hash](https://sepolia.etherscan.io/tx
 
 
 Proposals: 
-Proposal N. 1: lyle
-Proposal N. 2: cam
-Proposal N. 3: wendwossen
-Proposal N. 4: ignas
+lyle
+cam
+wendwossen
+ignas
 
 
 ##### Scripts
