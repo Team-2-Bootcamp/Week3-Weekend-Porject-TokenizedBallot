@@ -14,6 +14,22 @@ For week 3, the focus is on completing the contracts collaboratively and develop
 
 ### **Lyle Davids**
 
+##### Deployments
+Token Deployment deployed to Sepolia - [TX Hash](https://sepolia.etherscan.io/tx/0x97f115351d023b771e9a46513cdc2251d23744b21a58029b19e42cd189c8784b)
+
+
+Tokenised Ballot deployed to Sepolia - [TX Hash](https://sepolia.etherscan.io/tx/0x4b5d8d562de4258223668303e7219f1138375fba0645c229aa3f0537142867a3) , with proposal args
+
+
+Proposals: 
+Proposal N. 1: lyle
+Proposal N. 2: cam
+Proposal N. 3: wendwossen
+Proposal N. 4: ignas
+
+
+##### Scripts
+
 ### **Wendwossen Dufera
 i've completed the TokenizedBallot.sol by implementing the votePower function correctly. I've also added the necessary check that have to be taken in vote function. Then i've deployed both MyToken.sol and TokenizedBallot.sol. Below is the transaction hash for both:
 - [MyToken Contract Deployment](https://sepolia.etherscan.io/tx/0xac4ba7a1df03178f44266604430d2b5c2c57da3713533bda155034636518693f)
