@@ -62,6 +62,19 @@ ignas
 
 
 ##### Scripts
+* **giveVotingTokens**: 
+ Gave tokens to 0xEd921BA5cc5EEB8971cD8929254627a4FDAF84C1, [TX Hash](https://sepolia.etherscan.io/tx/0x473f1e182f1bc1368eed365ec9a1a32802b3aa24bea5f19c01cf4b0ac18c3a9e)
+Gave tokens to 0x9C497FD2F7B5893843f68D90C890fB9d1bcE9fb9, [TX Hash](https://sepolia.etherscan.io/tx/0xfdb574fdfcfb0ff8417ce4d7abb9cf7eda04c7aac28255f0d015afb13fae86a0)
+
+* **delegateVotingPower**: Self-delegated, [TX Hash](https://sepolia.etherscan.io/tx/0xcebe671761fd8e94f653b6cac361dce2181196fc4c4d2141dea3d01cfeb365d2)
+* **checkVotingPower**:
+Returned
+Voting power of an account with address 0xEd921BA5cc5EEB8971cD8929254627a4FDAF84C1 is 0.
+* **castVote**: Tried for vote for proposal 3(Index 2) which was wendwossen. Although, I didn't vote previously, transaction reverted with Error: execution reverted: "TokenizedBallot: trying to vote more than allowed" (action="estimateGas"......
+* **queryResult** 
+Returned
+Winning Proposal Index: 0
+Winner Name: lyle
 
 ### **Wendwossen Dufera
 i've completed the TokenizedBallot.sol by implementing the votePower function correctly. I've also added the necessary check that have to be taken in vote function. Then i've deployed both MyToken.sol and TokenizedBallot.sol. Below is the transaction hash for both:
