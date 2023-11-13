@@ -19,6 +19,7 @@ For week 3, the focus is on completing the contracts collaboratively and develop
 **TokenizedBallotDeployment**
 - Deployment tx: [TX Hash](https://sepolia.etherscan.io/tx/0x8a1a109a1297375704417661c53fcf29dad50f9937d05c64df7b0c5c8a288613)
 - Deployer wallet: 0x0F8215Ee72639e3ebb244e14D2F7A582060f68De
+- Proposals: proposal1, proposal2, proposal3
 
 **giveVotingTokens**
 - Gave 2 voting tokens to 0x7952F1CA05d414E9A193C4516A8E0b40fB4A57c9 [TX Hash](https://sepolia.etherscan.io/tx/0x34742403cc9a1ffeb0ee5e8d02b87671cc0ee13d8736e3738cc934378fa0e1e6)
@@ -33,16 +34,16 @@ Delegated voting power to myself: [TX Hash](https://sepolia.etherscan.io/tx/0xfc
 
 **checkVotingPower**
 - Returned:
-  Using address 0x0F8215Ee72639e3ebb244e14D2F7A582060f68De
-  Wallet balance 0.4819303546282501 ETH
-  Voting power of an account with address 0x0F8215Ee72639e3ebb244e14D2F7A582060f68De is 0.
+- Using address 0x0F8215Ee72639e3ebb244e14D2F7A582060f68De
+- Wallet balance 0.4819303546282501 ETH
+- Voting power of an account with address 0x0F8215Ee72639e3ebb244e14D2F7A582060f68De is 0.
 
 **queryResults**
 - Returned:
-  Using wallet address 0x0F8215Ee72639e3ebb244e14D2F7A582060f68De
-  Wallet balance 0.4819303546282501 ETH
-  Winning Proposal Index: 0
-  Winner Name: proposal1
+- Using wallet address 0x0F8215Ee72639e3ebb244e14D2F7A582060f68De
+- Wallet balance 0.4819303546282501 ETH
+- Winning Proposal Index: 0
+- Winner Name: proposal1
 
 ### **Lyle Davids**
 
